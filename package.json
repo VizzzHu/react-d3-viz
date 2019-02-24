@@ -1,0 +1,32 @@
+{
+  "name": "react-d3-viz",
+  "version": "1.0.0",
+  "description": "One library to render visualization with d3.js and react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --mode=production",
+    "watch": "webpack --progress --watch",
+    "server": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VizzzHu/react-d3-viz.git"
+  },
+  "author": "Xianlin Hu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VizzzHu/react-d3-viz/issues"
+  },
+  "homepage": "https://github.com/VizzzHu/react-d3-viz#readme",
+  "dependencies": {
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}
